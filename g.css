@@ -1,0 +1,602 @@
+body
+{
+	background-color: white;
+    width: 100vw;
+   height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+#second{
+ height: 100vh;
+ width: 100vw;
+ background-color: black;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 9;
+ display: flex;
+ transition: opacity 3s ease;
+}
+
+#second div{
+	width: 100vw;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#second div button{
+width: 220px;
+height: 60px;
+border:4px solid white;
+background-color: black;
+color: white;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 20px;
+transition: background-color .5s ease, border-color .5s ease, height .8s ease, width .8s ease;
+}
+
+#second div button:hover{
+background-color: white;
+transition: background-color .5s ease, border-color .5s ease, height .8s ease, width .8s ease;
+}
+
+.cursor:hover{
+	cursor: pointer;
+}
+
+#last{
+ height: 100vh;
+ width: 100vw;
+ background-color: lightblue;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-image: url('blue.jpg');
+ background-size: cover;
+ display: flex;
+  z-index: 4;
+}
+
+#lastlast{
+ height: 100vh;
+ width: 100vw;
+ background-color: lightblue;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-image: url('embre.jpg');
+ background-size: cover;
+  z-index: -1;
+}
+
+#bonusmenu{
+ height: 100vh;
+ width: 100vw;
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: flex;
+ flex-wrap: wrap;
+  z-index:3;
+  transition: opacity 1s ease; 
+}
+
+#third{
+ height: 100vh;
+ width: 100vw;
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: flex;
+  z-index: 8;
+  transition: opacity 1.5s ease;
+}
+
+#firstholder{
+transition: opacity 1s ease;
+}
+
+#secondholder{
+transition: opacity 1s ease;
+}
+
+button:focus{
+	outline: none;
+}
+
+#letter{
+	height: 320px;
+	width: 320px;
+	background-image: url('fix.svg');
+	background-size: cover;
+	margin: auto;
+	transition: transform 6s ease;
+}
+
+#fourth{
+ height: 100vh;
+ width: 100vw;
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: flex;
+  z-index: 7;
+  transition: opacity 1.5s ease;
+  opacity: 0;
+}
+
+#openletter{
+	height: 320px;
+	width: 320px;
+	background-image: url('gmax.svg');
+	background-size: cover;
+	margin: auto;
+	transition: transform 6s ease;
+}
+
+#fifth{
+ height: 100vh;
+ width: 100vw;
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: flex;
+  z-index: 6;
+  transition: opacity 1.5s ease;
+}
+
+#paper{
+	height: 320px;
+	width: 320px;
+	background-image: url('paper.svg');
+	background-size: cover;
+	margin: auto;
+	opacity: 0;
+	transition: transform 6s ease;
+}
+
+#sixth{
+ height: 100vh;
+ width: 100vw;
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: flex;
+  z-index: 5;
+  transition: opacity 2s ease, background-color 3s ease;
+}
+
+#bonusheld{
+	width: 800px;
+	height: 800px;
+	max-height: 90vh;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#textletter{
+	border:3px solid black;
+	margin: auto;
+	background-color: white;
+	width: 600px;
+	height: 800px;
+	max-height: 90vh;
+	opacity: 0;
+	transform: rotateY(90deg) scale(0.8,0.8) translateY(20px);
+	transition: opacity 1.5s ease,transform 2s ease, background-color 3s ease,border-color 3s ease;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+}
+
+#textletter #height{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 80px;
+    transition: height 2s ease,opacity 1s ease;
+}
+
+.span{
+	font-family: "Arial Black", Gadget, sans-serif;
+	margin-top: auto;
+	margin-bottom: auto;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height:40px;
+    text-align: center;
+    transition: border-radius 1s ease, background-color 1s ease, color 1s ease, height 1s ease, width 1s ease,margin-left 1s ease,margin-right 1s ease;
+}
+
+#g{
+		background-color: #d4cce8;
+		border-radius: 0px 150px 150px 0;
+}
+
+#ren{
+		background-color: #d4cce8;
+		border-radius:150px;
+}
+
+#ghof{
+		background-color: #d7ebff;
+		border-radius: 150px;
+}
+
+#r{
+		background-color: #d7ebff;
+		border-radius: 150px 0 0 150px;
+}
+
+#textletter p{
+	width: 80%;
+	margin: auto;
+	font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 2vh;
+}
+
+#textletter p span{
+	    text-align: justify;
+	    border-bottom: 2px solid #d4cce8;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 100%;
+	    line-height: 20px;
+	    transition: opacity 1s ease;
+}
+
+#buttons{
+ margin-bottom: 25px;
+ font-family: "Arial Black", Gadget, sans-serif;
+ font-size: 16px;
+ width: 100%;
+ height: 60px;
+ display: flex;
+ justify-content: space-between;
+ transition: background-color 1s ease, opacity 1s ease;
+}
+
+#next{
+ border:2px solid black;
+ border-right: 0px solid black;
+ background-color: #d7ebff;
+ font-family: "Arial Black", Gadget, sans-serif;
+ font-size: 16px;
+ width: 180px;
+ height: 60px;
+ border-radius: 150px 0 0 150px;
+ transition: background-color 1s ease, opacity 1s ease;
+}
+
+#prev{
+ border:2px solid black;
+ border-left: 0px solid black;
+ background-color: #d4cce8;
+ font-family: "Arial Black", Gadget, sans-serif;
+ font-size: 16px;
+ width: 180px;
+ height: 60px;
+ border-radius: 0 150px 150px 0;
+ transition: background-color 1s ease, opacity 1s ease;
+ visibility: hidden;
+ opacity: 0;
+}
+
+#prev:hover{
+background-color: #d7ebff;
+cursor: pointer;
+transition: background-color 1s ease, opacity 1s ease;
+}
+
+#next:hover{
+background-color: #d4cce8;
+cursor: pointer;
+transition: background-color 1s ease, opacity 1s ease;
+}
+
+#heart{
+transform: translateX(-200px);
+transition: transform 2s ease, opacity 1s ease;;
+}
+
+
+#bonusmenu button{
+margin: auto;
+width: 500px;
+height: 80px;
+border:3px solid white;
+background-color: black ;
+color: white;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 25px;
+transition: background-color .5s ease, border-color .5s ease;
+}
+
+#bonusmenu button:hover{
+background-color: #8f7dd1;
+border-color: #8f7dd1;
+transition: background-color .5s ease, border-color .5s ease;
+cursor: pointer;
+}
+
+@media screen and (min-height: 1000px) {
+ #textletter p{
+     font-size: 17px;
+  }
+}
+
+#hpl{
+ height: 100vh;
+ width: 100vw;
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: flex;
+ flex-direction: column;
+ z-index: 2;
+ opacity: 0;
+ visibility: hidden;
+ transition: opacity 1s ease;
+}
+
+#pongholder{
+	margin: auto;
+	margin-top: 0;
+	height: 160px;
+	padding: 20px;
+	width: 580px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border:2px solid white;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#examholder{
+	margin: auto;
+	margin-top: 0;
+	height: 120px;
+	padding: 20px;
+	width: 580px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border:2px solid white;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.close{
+	margin: auto;
+	margin-bottom: 0;
+	height: 30px;
+	vertical-align: middle;
+	line-height: 30px;
+	width: 620px;
+	text-align: center;
+	border:2px solid white;
+	background-color: black;
+	border-bottom: 0px solid white;
+	color: white;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 20px;
+transition: background-color 1s ease;
+}
+
+.close:hover{
+	background-color: white;
+    transition: background-color 1s ease;
+    cursor: pointer;
+}
+
+#pongarea{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#pongscore{
+		width: 100%;
+	display: flex;
+color: white;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 14px;
+}
+
+#heartpong{
+	color: white;
+	transition: transform 1s ease-out;
+	font-family: "Arial Black", Gadget, sans-serif;
+	transform: translateX(-190px);
+    font-size: 25px;
+}
+
+.player{
+	display: flex;
+	flex-direction: column;
+}
+
+.name{
+	text-align: center;
+	color: white;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 13px;
+}
+
+#s{
+height: 100vh;
+ width: 100vw;
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: flex;
+ flex-direction: column;
+ z-index: 1;
+ opacity: 0;
+ visibility: hidden;
+ transition: opacity 1s ease;
+}
+
+#ex{
+height: 100vh;
+ width: 100vw;
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: flex;
+ flex-direction: column;
+ z-index: 0;
+ opacity: 0;
+ visibility: hidden;
+ transition: opacity 1s ease;
+}
+
+#songsholder span{
+	width: 100%;
+	text-align: center;
+color: white;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 14px;
+}
+
+#examholder span{
+	width: 100%;
+	text-align: center;
+color: white;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 14px;
+}
+
+#songsholder{
+	margin: auto;
+	margin-top: 0;
+	height: 160px;
+	padding: 20px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border:2px solid white;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#cd{
+	width: 100%;
+	display: flex;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+                                                                                                                                     
+
+.player-container {
+  height: 500px;
+  width: 400px;
+  background: #e7e7e7;
+  border-radius: 20px;                                                                                                                                    
+  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+}
+
+.img-container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: -50px;
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  height: 0;
+  width: 0;                                                                                                                                     
+  opacity: 0;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+  transition: .5s;
+}
+
+.img-container img.active {
+  transition: .5s;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+
+h2 {
+  color: white;
+  font-size: 20px;
+  text-align: center;                                                                                                                                    
+  margin: 5px 0 0;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin: 5px 0 0;
+}
+
+.progress-container {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 40px 20px;
+  height: 4px;
+  width: 90%;
+}
+                                                                                                                                     
+.progress {
+  background: #8f7dd1;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+.duration-wrapper {
+  position: relative;
+  top: -25px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.player-controls {
+  position: relative;
+  top: -15px;
+  left: 120px;
+  width: 200px;
+}
+
+.fas {
+  font-size: 30px;
+  color: rgb(129, 129, 129);
+  margin-right: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+                                                                                                                                     
+.controls i:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+}
+
+.controls{
+	display: flex;
+	justify-content: space-around;
+}
+
+.controls i{
+font-size: 20px;
+color: #8f7dd1;
+}
