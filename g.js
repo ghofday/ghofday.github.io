@@ -248,7 +248,7 @@ function firstp(){
 }
 
 function secondp(){
-   document.getElementById('letterop').innerHTML = "A lot has happened this past year, you've had many difficulties, struggles and bad days, I've watched you survive through every single one and I couldn't have been more proud of you.<br/><br/> Although you don't show it I'm sure you still have a lot of worries on your mind that you want to figure out by yourself, and you'll have more upcoming challenges thrown at you by life, as much as I believe in you to get through it all by yourself, I just want to remind you that you don't have to do it all alone.<br/><br/> Please lean on me and take a break whenever you need to. Take it one step at a time, one day at a time, don't compare your progress to anyone else's and don't care about what others say cause I'll be forever right by your side throughout your whole journey.";
+   document.getElementById('letterop').innerHTML = "A lot has happened this past year, you've had many difficulties, struggles and bad days, I've watched you survive through every single one and I couldn't have been more proud of you.<br/><br/> Although you don't show it I'm sure you still have a lot of worries on your mind that you want to figure out by yourself, and you'll have more upcoming challenges thrown at you by life, as much as I believe in you to get through it all by yourself, I just want to remind you that you don't have to do it all alone.<br/><br/> Please lean on me and take a break whenever you need to. Take it one step at a time, one day at a time, don't compare your progress to anyone else's and don't care about what others say cause I'll be forever with you throughout your whole journey.";
   document.getElementById('letterop').style.opacity = 1;
   order = "second";
 }

@@ -17,20 +17,30 @@ const songs = [
     artist: 'VINXEN',
   },
   {
+    path: 'bike.mp3',
+    displayName: 'If I Could Ride A Bike',
+    artist: 'chevy , park bird',
+  },
+  {
     path: 'frad.mp3',
     displayName: 'First Date',
     artist: 'frad',
+  },
+  {
+    path: 'adore.mp3',
+    displayName: 'Adore You',
+    artist: 'iKON',
+  },
+  {
+    path: 'sports.mp3',
+    displayName: 'Sports',
+    artist: 'Beach Bunny',
   },
   {
     path: 'her.mp3',
     displayName: 'Outro: Her',
     artist: 'BTS',
   },  
-    {
-    path: 'bike.mp3',
-    displayName: 'If I Could Ride A Bike',
-    artist: 'chevy , park bird',
-  },
 ];
 
 // Check if Playing
