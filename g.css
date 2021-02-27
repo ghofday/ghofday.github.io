@@ -370,7 +370,6 @@ cursor: pointer;
 #examholder{
 	margin: auto;
 	margin-top: 0;
-	height: 120px;
 	padding: 20px;
 	width: 580px;
 	display: flex;
@@ -494,6 +493,7 @@ font-size: 14px;
 }
 
 #cd{
+	margin-top: 25px;
 	width: 100%;
 	display: flex;
 }

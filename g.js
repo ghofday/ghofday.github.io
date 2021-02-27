@@ -3,7 +3,7 @@ var order ="start"
 setTimeout(letterfloat,1000);
 var hearts = 0;
 var gonele = false;
-var endDate = new Date("Feb 28, 2021 23:00:00").getTime();
+var endDate = new Date("Mar 1, 2021 00:00:00").getTime();
 var timer = setInterval(function() {
 
     let now = new Date().getTime();
@@ -29,8 +29,9 @@ var timer = setInterval(function() {
         " <span class='label'>seconds</span>";
     
     } else {
-
-        alert('alert');
+        document.getElementById('timer').innerHTML = "To be honest I mainly made this part cause we weren't talking a lot during that period and i wanted to be able to be there for you without feeling overly clingy, so I'm really happy that changed and we talk way more often now I missed you so much </br> As March is starting and you'll probably be more focused on your studying this is your reminder that you don't have to satisfy anyone but yourself, I believe in your abilities to do that and I'll always support you no matter your decisions I love you so much";
+        document.getElementById('timeremove').remove();
+        clearInterval(timer);
     
     }
     
