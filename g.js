@@ -3,7 +3,7 @@ var order ="start"
 setTimeout(letterfloat,1000);
 var hearts = 0;
 var gonele = false;
-var endDate = new Date("Mar 1, 2021 00:00:00").getTime();
+var endDate = new Date("April 1, 2021 00:00:00").getTime();
 var timer = setInterval(function() {
 
     let now = new Date().getTime();
