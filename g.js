@@ -29,7 +29,7 @@ var timer = setInterval(function() {
         " <span class='label'>seconds</span>";
     
     } else {
-        document.getElementById('timer').innerHTML = " *bonk* hello my only baby, reminder that you mean the world to me, AND STAY HYDRATED *bonk* ";
+        document.getElementById('timer').innerHTML = "";
         document.getElementById('timeremove').remove();
         clearInterval(timer);
     
