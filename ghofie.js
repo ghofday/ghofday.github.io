@@ -29,9 +29,12 @@ var timer = setInterval(function() {
         " <span class='label'>seconds</span>";
     
     } else {
-        document.getElementById('timer').innerHTML = "I miss you so much <3 I hope your days are treating you well, here is your reminder that you are more than enough and you deserve everything good! I LOVE YOU SO MUCHIE!!";
-        document.getElementById('timeremove').remove();
-        clearInterval(timer);
+       document.getElementById('timer-hours').remove();
+       document.getElementById('timer-mins').remove();
+       document.getElementById('timer-secs').remove();
+       document.getElementById('timer-days').innerHTML = "I miss you so much <3 I hope your days are treating you well, here is your reminder that you are more than enough and you deserve everything good! I LOVE YOU SO MUCHIE!!";
+       // document.getElementById('timeremove').remove();
+       clearInterval(timer);
     
     }
     
